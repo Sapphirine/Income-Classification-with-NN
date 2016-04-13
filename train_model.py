@@ -21,6 +21,10 @@ from chainer import serializers
 import data
 import net
 
+
+
+
+
 parser = argparse.ArgumentParser(description='Chainer example: MNIST')
 parser.add_argument('--initmodel', '-m', default='',
                     help='Initialize the model from given file')
