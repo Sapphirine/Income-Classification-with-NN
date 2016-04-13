@@ -67,14 +67,14 @@ N_test = y_test.size
 
 # Prepare multi-layer perceptron model, defined in net.py
 if args.net == 'simple':
-    model = L.Classifier(net.MnistMLP(14, n_units, 10))
+    model = L.Classifier(net.NN_MLP(14, n_units, 10))
     if args.gpu >= 0:
         cuda.get_device(args.gpu).use()
         model.to_gpu()
     xp = np if args.gpu < 0 else cuda.cupy
 elif args.net == 'parallel':
     cuda.check_cuda_available()
-    model = L.Classifier(net.MnistMLPParallel(14, n_units, 10))
+    model = L.Classifier(net.NN_MLPParallel(14, n_units, 10))
     xp = cuda.cupy
 
 # Setup optimizer

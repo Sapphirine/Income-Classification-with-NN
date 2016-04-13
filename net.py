@@ -3,16 +3,14 @@ import chainer.functions as F
 import chainer.links as L
 
 
-class MnistMLP(chainer.Chain):
-
-    """An example of multi-layer perceptron for MNIST dataset.
-
-    This is a very simple implementation of an MLP. You can modify this code to
-    build your own neural net.
+class NN_MLP(chainer.Chain):
 
     """
+    This is a very simple implementation of an MLP. You can modify this code to
+    build your own neural net.
+    """
     def __init__(self, n_in, n_units, n_out):
-        super(MnistMLP, self).__init__(
+        super(NN_MLP, self).__init__(
             l1=L.Linear(n_in, n_units),
             l2=L.Linear(n_units, n_units),
             l3=L.Linear(n_units, n_out),
@@ -24,7 +22,7 @@ class MnistMLP(chainer.Chain):
         return self.l3(h2)
 
 
-class MnistMLPParallel(chainer.Chain):
+class NN_MLPParallel(chainer.Chain):
 
     """An example of model-parallel MLP.
 
@@ -32,11 +30,11 @@ class MnistMLPParallel(chainer.Chain):
 
     """
     def __init__(self, n_in, n_units, n_out):
-        super(MnistMLPParallel, self).__init__(
-            first0=MnistMLP(n_in, n_units // 2, n_units).to_gpu(0),
-            first1=MnistMLP(n_in, n_units // 2, n_units).to_gpu(1),
-            second0=MnistMLP(n_units, n_units // 2, n_out).to_gpu(0),
-            second1=MnistMLP(n_units, n_units // 2, n_out).to_gpu(1),
+        super(NN_MLPParallel, self).__init__(
+            first0 =NN_MLP(n_in, n_units // 2, n_units).to_gpu(0),
+            first1 =NN_MLP(n_in, n_units // 2, n_units).to_gpu(1),
+            second0=NN_MLP(n_units, n_units // 2, n_out).to_gpu(0),
+            second1=NN_MLP(n_units, n_units // 2, n_out).to_gpu(1),
         )
 
     def __call__(self, x):

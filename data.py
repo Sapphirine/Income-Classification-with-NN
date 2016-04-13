@@ -49,6 +49,6 @@ def load_data():
              six.moves.cPickle.dump(mnist, output, -1)
     	print('Done')
 
-    with open('raw_data.pkl', 'rb') as mnist_pickle:
-        mnist = six.moves.cPickle.load(mnist_pickle)
-    return mnist
+    with open('raw_data.pkl', 'rb') as raw_data_pickle:
+        raw_data = six.moves.cPickle.load(raw_data_pickle)
+    return raw_data
