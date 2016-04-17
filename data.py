@@ -9,7 +9,7 @@ def load_matrix():
     namez=('age', 'workclass', 'fnlwgt', 'education', 'educationalNum', 'martialStatus', 'occupation', \
            'relationship', 'race', 'gender', 'capitalGain', 'capitalLoss', 'hoursPerWeek', \
            'nativeCountry', 'income')
-    raw=np.genfromtxt('/home/ubuntu/adult/Dataset.data', delimiter=' ',dtype=None, names=namez)
+    raw=np.genfromtxt('/home/ubuntu/FinalProject/Dataset.data', delimiter=' ',dtype=None, names=namez)
     
     num=len(raw)
     dim=14

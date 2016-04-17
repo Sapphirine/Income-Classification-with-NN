@@ -1,1 +1,4 @@
-test
+This project implements Python Chainer to create a neural network model of US census data.  
+The goal of the project being to classifiy individuals into higher income earners and low income 
+earners based on there other trains.  
+The Data used can be found in Dataset.data and a description in Dataset.spec
