@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-"""Chainer example: train a multi-layer perceptron on MNIST
+"""training a multi-layer perceptron for wage classification
 
-This is a minimal example to write a feed-forward net.
-
+This is based off a  minimal example to write a feed-forward net.
+From the Chainer documentation.
 """
 from __future__ import print_function
 import argparse
@@ -21,11 +21,7 @@ from chainer import serializers
 import data
 import net
 
-
-
-
-
-parser = argparse.ArgumentParser(description='Chainer example: MNIST')
+parser = argparse.ArgumentParser(description="Samuel Brown and Patrick King's Final project")
 parser.add_argument('--initmodel', '-m', default='',
                     help='Initialize the model from given file')
 parser.add_argument('--resume', '-r', default='',
@@ -67,14 +63,14 @@ N_test = y_test.size
 
 # Prepare multi-layer perceptron model, defined in net.py
 if args.net == 'simple':
-    model = L.Classifier(net.NN_MLP(14, n_units, 10))
+    model = L.Classifier(net.NN_MLP(14, n_units, 1))
     if args.gpu >= 0:
         cuda.get_device(args.gpu).use()
         model.to_gpu()
     xp = np if args.gpu < 0 else cuda.cupy
 elif args.net == 'parallel':
     cuda.check_cuda_available()
-    model = L.Classifier(net.NN_MLPParallel(14, n_units, 10))
+    model = L.Classifier(net.NN_MLPParallel(14, n_units, 1))
     xp = cuda.cupy
 
 # Setup optimizer
@@ -117,7 +113,7 @@ for epoch in six.moves.range(1, n_epoch + 1):
     end = time.time()
     elapsed_time = end - start
     throughput = N / elapsed_time
-    print('train mean loss={}, accuracy={}, throughput={} images/sec'.format(
+    print('train mean loss={}, accuracy={}, throughput={} Points/sec'.format(
         sum_loss / N, sum_accuracy / N, throughput))
 
     # evaluation
