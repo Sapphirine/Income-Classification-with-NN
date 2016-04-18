@@ -27,14 +27,14 @@ parser.add_argument('--initmodel', '-m', default='',
 parser.add_argument('--resume', '-r', default='',
                     help='Resume the optimization from snapshot')
 parser.add_argument('--net', '-n', choices=('simple', 'parallel'),
-                    default='parallel', help='Network type')
+                    default='simple', help='Network type')
 parser.add_argument('--gpu', '-g', default=0, type=int,
                     help='GPU ID (negative value indicates CPU)')
 parser.add_argument('--epoch', '-e', default=20, type=int,
                     help='number of epochs to learn')
 parser.add_argument('--unit', '-u', default=1000, type=int,
                     help='number of units')
-parser.add_argument('--batchsize', '-b', type=int, default=100,
+parser.add_argument('--batchsize', '-b', type=int, default=50,
                     help='learning minibatch size')
 args = parser.parse_args()
 
@@ -63,14 +63,14 @@ N_test = y_test.size
 
 # Prepare multi-layer perceptron model, defined in net.py
 if args.net == 'simple':
-    model = L.Classifier(net.NN_MLP(14, n_units, 1))
+    model = L.Classifier(net.NN_MLP(14, n_units, 50))
     if args.gpu >= 0:
         cuda.get_device(args.gpu).use()
         model.to_gpu()
     xp = np if args.gpu < 0 else cuda.cupy
 elif args.net == 'parallel':
     cuda.check_cuda_available()
-    model = L.Classifier(net.NN_MLPParallel(14, n_units, 1))
+    model = L.Classifier(net.NN_MLPParallel(14, n_units, 50))
     xp = cuda.cupy
 
 # Setup optimizer
