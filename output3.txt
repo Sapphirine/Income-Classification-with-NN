@@ -1,0 +1,310 @@
+GPU: 0
+# unit: 1000
+# Minibatch-size: 100
+# epoch: 100
+Network type: parallel
+
+load dataset
+epoch 1
+graph generated
+train mean loss=3.81255071446, accuracy=0.744349997919, throughput=3405.14821662 Points/sec
+test  mean loss=0.522986728677, accuracy=0.775390181329
+epoch 2
+train mean loss=0.542999388054, accuracy=0.778849998191, throughput=3817.85587087 Points/sec
+test  mean loss=0.54154465923, accuracy=0.760913818636
+epoch 3
+train mean loss=0.505193359926, accuracy=0.793424998224, throughput=3766.74112117 Points/sec
+test  mean loss=0.496167819914, accuracy=0.794842792161
+epoch 4
+train mean loss=0.598158875555, accuracy=0.759749997817, throughput=3797.35998041 Points/sec
+test  mean loss=0.552143871097, accuracy=0.759895950347
+epoch 5
+train mean loss=0.72867141217, accuracy=0.753149998039, throughput=3838.19370163 Points/sec
+test  mean loss=0.571241744784, accuracy=0.752770863556
+epoch 6
+train mean loss=0.566457046494, accuracy=0.759224998727, throughput=3843.95577984 Points/sec
+test  mean loss=0.547852507654, accuracy=0.761705493973
+epoch 7
+train mean loss=0.639620400518, accuracy=0.759274998829, throughput=3849.90046998 Points/sec
+test  mean loss=0.514184281867, accuracy=0.783533136409
+epoch 8
+train mean loss=0.556088857129, accuracy=0.764249997512, throughput=3864.50020957 Points/sec
+test  mean loss=0.547552073307, accuracy=0.760687625009
+epoch 9
+train mean loss=0.554839321002, accuracy=0.766475000083, throughput=3867.24927831 Points/sec
+test  mean loss=0.550316823901, accuracy=0.759669756719
+epoch 10
+train mean loss=0.541933187395, accuracy=0.768824997768, throughput=3867.84947825 Points/sec
+test  mean loss=0.541222006885, accuracy=0.764306716306
+epoch 11
+train mean loss=0.518588271141, accuracy=0.785874998271, throughput=3855.43134395 Points/sec
+test  mean loss=0.493989579631, accuracy=0.79699162724
+epoch 12
+train mean loss=0.512726710215, accuracy=0.787924998403, throughput=3866.29952081 Points/sec
+test  mean loss=0.493615853654, accuracy=0.795973756928
+epoch 13
+train mean loss=0.499856199473, accuracy=0.794424997419, throughput=3866.2430331 Points/sec
+test  mean loss=0.486062134965, accuracy=0.80683103284
+epoch 14
+train mean loss=0.489866418839, accuracy=0.800424998999, throughput=3865.01398766 Points/sec
+test  mean loss=0.487608504306, accuracy=0.801854783824
+epoch 15
+train mean loss=0.487137409151, accuracy=0.802374997884, throughput=3866.30593593 Points/sec
+test  mean loss=0.484370181178, accuracy=0.804682197762
+epoch 16
+train mean loss=0.487051883116, accuracy=0.802124997526, throughput=3867.66856059 Points/sec
+test  mean loss=0.487150486954, accuracy=0.802533359987
+epoch 17
+train mean loss=0.486460063457, accuracy=0.802674997747, throughput=3865.10961835 Points/sec
+test  mean loss=0.493149356722, accuracy=0.797217820193
+epoch 18
+train mean loss=0.486831259429, accuracy=0.802249997258, throughput=3863.5461075 Points/sec
+test  mean loss=0.489566032743, accuracy=0.797670206099
+epoch 19
+train mean loss=0.485550682768, accuracy=0.803199996352, throughput=3854.0480215 Points/sec
+test  mean loss=0.484039255435, accuracy=0.801402392524
+epoch 20
+train mean loss=0.487983109728, accuracy=0.80127499789, throughput=3860.94347982 Points/sec
+test  mean loss=0.482989722316, accuracy=0.805586967552
+epoch 21
+train mean loss=0.485959382504, accuracy=0.802424998581, throughput=3849.21327311 Points/sec
+test  mean loss=0.495086834283, accuracy=0.793372537291
+epoch 22
+train mean loss=0.486878438592, accuracy=0.800999997407, throughput=3868.01560927 Points/sec
+test  mean loss=0.483411073065, accuracy=0.804116713356
+epoch 23
+train mean loss=0.486701206863, accuracy=0.803324997872, throughput=3865.0431928 Points/sec
+test  mean loss=0.48190600261, accuracy=0.806491740714
+epoch 24
+train mean loss=0.486896535084, accuracy=0.802599996775, throughput=3867.89210202 Points/sec
+test  mean loss=0.482994406114, accuracy=0.801741682628
+epoch 25
+train mean loss=0.487956135422, accuracy=0.802799998671, throughput=3860.08695932 Points/sec
+test  mean loss=0.484584382866, accuracy=0.806152451958
+epoch 26
+train mean loss=0.485553919822, accuracy=0.803924997896, throughput=3862.30606101 Points/sec
+test  mean loss=0.484560132242, accuracy=0.802420262162
+epoch 27
+train mean loss=0.485004968271, accuracy=0.803674998283, throughput=3866.06894727 Points/sec
+test  mean loss=0.486007207809, accuracy=0.798348785633
+epoch 28
+train mean loss=0.485211714804, accuracy=0.804174997211, throughput=3862.12788421 Points/sec
+test  mean loss=0.483606675285, accuracy=0.800384524909
+epoch 29
+train mean loss=0.484582361877, accuracy=0.804999997318, throughput=3865.19812992 Points/sec
+test  mean loss=0.486073870029, accuracy=0.802759552266
+epoch 30
+train mean loss=0.48665778555, accuracy=0.803524999022, throughput=3843.69096618 Points/sec
+test  mean loss=0.484095000797, accuracy=0.805134581646
+epoch 31
+train mean loss=0.486661999747, accuracy=0.80269999817, throughput=3829.98579337 Points/sec
+test  mean loss=0.485556509343, accuracy=0.798914269364
+epoch 32
+train mean loss=0.483754406571, accuracy=0.805824998468, throughput=3863.12593946 Points/sec
+test  mean loss=0.483877099253, accuracy=0.800723815013
+epoch 33
+train mean loss=0.483999641836, accuracy=0.805449998379, throughput=3863.79764711 Points/sec
+test  mean loss=0.480994468481, accuracy=0.80513458232
+epoch 34
+train mean loss=0.483221448511, accuracy=0.805474998057, throughput=3866.55248841 Points/sec
+test  mean loss=0.482963862677, accuracy=0.80015833263
+epoch 35
+train mean loss=0.485137876198, accuracy=0.804849998504, throughput=3861.97639352 Points/sec
+test  mean loss=0.494289183948, accuracy=0.795408276567
+epoch 36
+train mean loss=0.484292398021, accuracy=0.804924998283, throughput=3858.12475613 Points/sec
+test  mean loss=0.483042039811, accuracy=0.800836909467
+epoch 37
+train mean loss=0.48248155877, accuracy=0.8064249973, throughput=3865.97620887 Points/sec
+test  mean loss=0.481181968636, accuracy=0.800723816361
+epoch 38
+train mean loss=0.482417913228, accuracy=0.805999997556, throughput=3815.50140233 Points/sec
+test  mean loss=0.480189278489, accuracy=0.807283418746
+epoch 39
+train mean loss=0.482593009025, accuracy=0.80507499814, throughput=3787.4301334 Points/sec
+test  mean loss=0.482340017438, accuracy=0.808301289058
+epoch 40
+train mean loss=0.485100013912, accuracy=0.805124999434, throughput=3782.58034267 Points/sec
+test  mean loss=0.486942306966, accuracy=0.799253557446
+epoch 41
+train mean loss=0.510440822691, accuracy=0.80254999835, throughput=3777.78863616 Points/sec
+test  mean loss=0.480999782651, accuracy=0.800723814339
+epoch 42
+train mean loss=0.481819583848, accuracy=0.806149998754, throughput=3783.22177066 Points/sec
+test  mean loss=0.479988123504, accuracy=0.807283416724
+epoch 43
+train mean loss=0.481319410056, accuracy=0.80602499783, throughput=3772.09280375 Points/sec
+test  mean loss=0.479074207266, accuracy=0.809658448126
+epoch 44
+train mean loss=0.481804063767, accuracy=0.806299997866, throughput=3792.56490075 Points/sec
+test  mean loss=0.480582468557, accuracy=0.812259669111
+epoch 45
+train mean loss=0.481609750539, accuracy=0.806249997616, throughput=3772.51257301 Points/sec
+test  mean loss=0.480974106194, accuracy=0.804908387344
+epoch 46
+train mean loss=0.481097502559, accuracy=0.806649998575, throughput=3722.63605392 Points/sec
+test  mean loss=0.482116333205, accuracy=0.800610716514
+epoch 47
+train mean loss=0.48072295621, accuracy=0.8067249991, throughput=3738.44977172 Points/sec
+test  mean loss=0.484705416575, accuracy=0.801628586826
+epoch 48
+train mean loss=0.48132576637, accuracy=0.8065749982, throughput=3728.20733979 Points/sec
+test  mean loss=0.484421784118, accuracy=0.798914268016
+epoch 49
+train mean loss=0.480869555697, accuracy=0.807499998361, throughput=3732.91795394 Points/sec
+test  mean loss=0.496221228372, accuracy=0.795521371695
+epoch 50
+train mean loss=0.481986884251, accuracy=0.807024997473, throughput=3740.30285964 Points/sec
+test  mean loss=0.481529185551, accuracy=0.803551231647
+epoch 51
+train mean loss=0.482400151417, accuracy=0.806699998081, throughput=3729.20865686 Points/sec
+test  mean loss=0.479627217299, accuracy=0.808866770093
+epoch 52
+train mean loss=0.481936038211, accuracy=0.805299997926, throughput=3743.7791184 Points/sec
+test  mean loss=0.479717298914, accuracy=0.810110832684
+epoch 53
+train mean loss=0.480190364122, accuracy=0.806874998063, throughput=3740.95355114 Points/sec
+test  mean loss=0.483043598579, accuracy=0.800610717188
+epoch 54
+train mean loss=0.480730701536, accuracy=0.806674998105, throughput=3739.4155086 Points/sec
+test  mean loss=0.478860800715, accuracy=0.812372766262
+epoch 55
+train mean loss=0.48084744595, accuracy=0.806924998164, throughput=3739.6934066 Points/sec
+test  mean loss=0.488097491199, accuracy=0.798688075063
+epoch 56
+train mean loss=0.480781331658, accuracy=0.80687499702, throughput=3736.23138406 Points/sec
+test  mean loss=0.482161670337, accuracy=0.799479751074
+epoch 57
+train mean loss=0.480645280927, accuracy=0.806774998754, throughput=3739.48993853 Points/sec
+test  mean loss=0.480085620889, accuracy=0.806831031492
+epoch 58
+train mean loss=0.480392065495, accuracy=0.807449997514, throughput=3740.56454352 Points/sec
+test  mean loss=0.484247053878, accuracy=0.802533357291
+epoch 59
+train mean loss=0.482509899288, accuracy=0.80539999634, throughput=3740.87939658 Points/sec
+test  mean loss=0.479725165905, accuracy=0.810337029008
+epoch 60
+train mean loss=0.480518247932, accuracy=0.807124997079, throughput=3736.58112596 Points/sec
+test  mean loss=0.486043729237, accuracy=0.799253557446
+epoch 61
+train mean loss=0.48113244012, accuracy=0.805549997389, throughput=3738.48825833 Points/sec
+test  mean loss=0.488204521228, accuracy=0.79880117154
+epoch 62
+train mean loss=0.481500921622, accuracy=0.807024998218, throughput=3738.13357841 Points/sec
+test  mean loss=0.481286206725, accuracy=0.805021482473
+epoch 63
+train mean loss=0.480509889871, accuracy=0.80687499851, throughput=3731.45887822 Points/sec
+test  mean loss=0.479541320346, accuracy=0.807396515223
+epoch 64
+train mean loss=0.484507082999, accuracy=0.806174997836, throughput=3738.6273832 Points/sec
+test  mean loss=0.479347160002, accuracy=0.811581089577
+epoch 65
+train mean loss=0.481031211987, accuracy=0.807299997509, throughput=3734.65606914 Points/sec
+test  mean loss=0.480204477067, accuracy=0.80264645579
+epoch 66
+train mean loss=0.479270362556, accuracy=0.807724997252, throughput=3738.66895606 Points/sec
+test  mean loss=0.47834856851, accuracy=0.809545352998
+epoch 67
+train mean loss=0.479970201254, accuracy=0.807249997407, throughput=3734.21750298 Points/sec
+test  mean loss=0.481941016611, accuracy=0.800950005944
+epoch 68
+train mean loss=0.480321603864, accuracy=0.807849998474, throughput=3742.31471353 Points/sec
+test  mean loss=0.479875415597, accuracy=0.804342905635
+epoch 69
+train mean loss=0.480190742686, accuracy=0.806949998587, throughput=3742.34726938 Points/sec
+test  mean loss=0.484043499216, accuracy=0.799140461644
+epoch 70
+train mean loss=0.479831615016, accuracy=0.806624996513, throughput=3741.87609948 Points/sec
+test  mean loss=0.481757608171, accuracy=0.798461880087
+epoch 71
+train mean loss=0.479612689242, accuracy=0.807049995363, throughput=3745.21206351 Points/sec
+test  mean loss=0.481546992308, accuracy=0.801628586152
+epoch 72
+train mean loss=0.480458869934, accuracy=0.807524998039, throughput=3724.89869225 Points/sec
+test  mean loss=0.479105483054, accuracy=0.80762270885
+epoch 73
+train mean loss=0.480904822648, accuracy=0.807424997836, throughput=3734.43178571 Points/sec
+test  mean loss=0.480420529397, accuracy=0.807848903152
+epoch 74
+train mean loss=0.485192120448, accuracy=0.805099996626, throughput=3720.86966053 Points/sec
+test  mean loss=0.484105183498, accuracy=0.802420264185
+epoch 75
+train mean loss=0.479509533793, accuracy=0.8081499964, throughput=3732.57105649 Points/sec
+test  mean loss=0.477840918042, accuracy=0.805134581646
+epoch 76
+train mean loss=0.481301059946, accuracy=0.806399996877, throughput=3733.32281836 Points/sec
+test  mean loss=0.490668556609, accuracy=0.803438131126
+epoch 77
+train mean loss=0.480073304176, accuracy=0.807599998116, throughput=3724.72114237 Points/sec
+test  mean loss=0.47897673899, accuracy=0.807961997606
+epoch 78
+train mean loss=0.479622136578, accuracy=0.807424997091, throughput=3730.49417705 Points/sec
+test  mean loss=0.480470195922, accuracy=0.805134579624
+epoch 79
+train mean loss=0.480412403718, accuracy=0.80762499705, throughput=3729.21114363 Points/sec
+test  mean loss=0.47949737816, accuracy=0.807735803305
+epoch 80
+train mean loss=0.479506172463, accuracy=0.807299996912, throughput=3731.49157744 Points/sec
+test  mean loss=0.478695499455, accuracy=0.805473871076
+epoch 81
+train mean loss=0.479502456412, accuracy=0.807274997085, throughput=3740.45504546 Points/sec
+test  mean loss=0.47791003949, accuracy=0.812372765587
+epoch 82
+train mean loss=0.482223894149, accuracy=0.80589999944, throughput=3736.34937198 Points/sec
+test  mean loss=0.508237366047, accuracy=0.787378419311
+epoch 83
+train mean loss=0.482888189107, accuracy=0.805774998963, throughput=3738.86950183 Points/sec
+test  mean loss=0.479059020822, accuracy=0.809319156674
+epoch 84
+train mean loss=0.481497933343, accuracy=0.806374997795, throughput=3744.40260641 Points/sec
+test  mean loss=0.478716119817, accuracy=0.810223931857
+epoch 85
+train mean loss=0.481004743055, accuracy=0.805249997675, throughput=3742.69214579 Points/sec
+test  mean loss=0.479312792498, accuracy=0.810450124811
+epoch 86
+train mean loss=0.479903229922, accuracy=0.808449998498, throughput=3742.77939766 Points/sec
+test  mean loss=0.477586040141, accuracy=0.809997737556
+epoch 87
+train mean loss=0.478940214962, accuracy=0.80809999913, throughput=3735.69512382 Points/sec
+test  mean loss=0.476292235661, accuracy=0.810110834707
+epoch 88
+train mean loss=0.484041841775, accuracy=0.803624998331, throughput=3731.8195143 Points/sec
+test  mean loss=0.483774929329, accuracy=0.801741683302
+epoch 89
+train mean loss=0.480594879389, accuracy=0.80662499696, throughput=3726.09997599 Points/sec
+test  mean loss=0.479047591251, accuracy=0.809319158022
+epoch 90
+train mean loss=0.479729550257, accuracy=0.808099998534, throughput=3741.8802723 Points/sec
+test  mean loss=0.479462274664, accuracy=0.807170322944
+epoch 91
+train mean loss=0.479021928534, accuracy=0.80757499665, throughput=3739.83253782 Points/sec
+test  mean loss=0.479514379505, accuracy=0.806378645585
+epoch 92
+train mean loss=0.478849831596, accuracy=0.808824997842, throughput=3739.96375913 Points/sec
+test  mean loss=0.479366165498, accuracy=0.803211940195
+epoch 93
+train mean loss=0.479857748225, accuracy=0.807074997425, throughput=3732.75392328 Points/sec
+test  mean loss=0.482513429325, accuracy=0.800045232783
+epoch 94
+train mean loss=0.478980017304, accuracy=0.80842499733, throughput=3734.60303008 Points/sec
+test  mean loss=0.478785982784, accuracy=0.807848900455
+epoch 95
+train mean loss=0.478629624024, accuracy=0.808849997371, throughput=3742.67745114 Points/sec
+test  mean loss=0.479584819077, accuracy=0.807735807349
+epoch 96
+train mean loss=0.480047512278, accuracy=0.808449998051, throughput=3743.12786123 Points/sec
+test  mean loss=0.479675477108, accuracy=0.800384523561
+epoch 97
+train mean loss=0.478163222075, accuracy=0.808349997997, throughput=3739.97976643 Points/sec
+test  mean loss=0.480390009055, accuracy=0.801741682628
+epoch 98
+train mean loss=0.479436140582, accuracy=0.80649999842, throughput=3727.35892438 Points/sec
+test  mean loss=0.478399569472, accuracy=0.803890518381
+epoch 99
+train mean loss=0.479124094844, accuracy=0.808049997091, throughput=3742.34969023 Points/sec
+test  mean loss=0.476409139231, accuracy=0.808075095431
+epoch 100
+train mean loss=0.486757961735, accuracy=0.802274998426, throughput=3716.27499496 Points/sec
+test  mean loss=0.481725909178, accuracy=0.805926261027
+save the model
+save the optimizer
